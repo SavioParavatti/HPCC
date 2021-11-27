@@ -1,5 +1,13 @@
 {
     "ecl.forceProxySupport": true,
     "ecl.launchConfiguration": "TrainingCluster",
-    "ecl.targetCluster": {}
+    "ecl.targetCluster": {
+        "TrainingCluster": "thor"
+    },
+    "ecl.pinnedLaunchConfigurations": {
+        "file:///workspace/FCAV_DominandoBigData_INTER/FCAV_DominandoBigData_INTER/Workshops/Aula3/BWR_ViewPrepData.ecl": {
+            "launchConfiguration": "TrainingCluster",
+            "targetCluster": "thor"
+        }
+    }
 }
